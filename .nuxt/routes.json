@@ -1,0 +1,16 @@
+[
+  {
+    "name": "YML",
+    "path": "/YML",
+    "component": "D:\\\\LCIT_INVOICE_EDI\\\\invoice_edi\\\\pages\\\\YML.vue",
+    "chunkName": "pages/YML",
+    "_name": "_24078cc6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\LCIT_INVOICE_EDI\\\\invoice_edi\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5b8e4e77"
+  }
+]
