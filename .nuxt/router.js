@@ -4,8 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _24078cc6 = () => interopDefault(import('..\\pages\\YML.vue' /* webpackChunkName: "pages/YML" */))
-const _5b8e4e77 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _34750778 = () => interopDefault(import('..\\pages\\KMT.vue' /* webpackChunkName: "pages/KMT" */))
+const _6c28046c = () => interopDefault(import('..\\pages\\YML.vue' /* webpackChunkName: "pages/YML" */))
+const _0ac48938 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -19,12 +20,16 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/KMT",
+    component: _34750778,
+    name: "KMT"
+  }, {
     path: "/YML",
-    component: _24078cc6,
+    component: _6c28046c,
     name: "YML"
   }, {
     path: "/",
-    component: _5b8e4e77,
+    component: _0ac48938,
     name: "index"
   }],
 

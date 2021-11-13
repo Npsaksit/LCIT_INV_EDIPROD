@@ -1,16 +1,23 @@
 [
   {
+    "name": "KMT",
+    "path": "/KMT",
+    "component": "D:\\\\LCIT_INVOICE_EDIPROD\\\\pages\\\\KMT.vue",
+    "chunkName": "pages/KMT",
+    "_name": "_34750778"
+  },
+  {
     "name": "YML",
     "path": "/YML",
-    "component": "D:\\\\LCIT_INVOICE_EDI\\\\invoice_edi\\\\pages\\\\YML.vue",
+    "component": "D:\\\\LCIT_INVOICE_EDIPROD\\\\pages\\\\YML.vue",
     "chunkName": "pages/YML",
-    "_name": "_24078cc6"
+    "_name": "_6c28046c"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\LCIT_INVOICE_EDI\\\\invoice_edi\\\\pages\\\\index.vue",
+    "component": "D:\\\\LCIT_INVOICE_EDIPROD\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_5b8e4e77"
+    "_name": "_0ac48938"
   }
 ]
