@@ -3,21 +3,18 @@
     "name": "KMT",
     "path": "/KMT",
     "component": "D:\\\\LCIT_INVOICE_EDIPROD\\\\pages\\\\KMT.vue",
-    "chunkName": "pages/KMT",
-    "_name": "_34750778"
+    "chunkName": "pages/KMT"
   },
   {
     "name": "YML",
     "path": "/YML",
     "component": "D:\\\\LCIT_INVOICE_EDIPROD\\\\pages\\\\YML.vue",
-    "chunkName": "pages/YML",
-    "_name": "_6c28046c"
+    "chunkName": "pages/YML"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\LCIT_INVOICE_EDIPROD\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_0ac48938"
+    "chunkName": "pages/index"
   }
 ]
