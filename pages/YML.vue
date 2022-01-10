@@ -193,12 +193,18 @@ export default {
       XLSX.utils.book_append_sheet(wb, dataWS)
       await XLSX.writeFile(
         wb,
-        `Inv ${this.$store.getters.getformSearch.invoiceNo}.xlsx`
+        `Inv ${this.$store.getters.getformSearch.invoiceNo}.xls`
       )
 
       console.log(JSON.stringify(dataWS))
       dataWS = null
     },
+    async excelExportXLS(){
+      
+
+
+    }
+    ,
     async generate() {
       this.loading = true
       var body = new URLSearchParams()
