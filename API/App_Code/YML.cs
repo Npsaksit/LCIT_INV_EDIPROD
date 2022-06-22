@@ -149,7 +149,7 @@ public class YML {
       sdastatus.Fill(dtstatus);
 
       conn.Open();
-      SqlDataAdapter sdaFINAL = new SqlDataAdapter("SELECT LCMP.EXPENSE_ID, LCMP.STATUS FROM LCIT_INVOICE_EDI.dbo.LCIT_CODE_MAPPING AS LCMP WHERE LCMP.LCIT_GROUP_ID = '" + LCITCode + "' AND LCMP.STATUS LIKE 'FOB' ", conn);
+      SqlDataAdapter sdaFINAL = new SqlDataAdapter("SELECT LCMP.EXPENSE_ID, LCMP.STATUS FROM LCIT_INVOICE_EDI.dbo.LCIT_CODE_MAPPING AS LCMP WHERE LCMP.LCIT_GROUP_ID = '" + LCITCode + "' AND LCMP.STATUS LIKE '"+dtstatus.Rows[0]["STATUS"].ToString()+"' ", conn);
       DataTable dtLcitCodeFINAL = new DataTable();
 
       sdaFINAL.Fill(dtLcitCodeFINAL);
